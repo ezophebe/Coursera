@@ -2,6 +2,19 @@ body {
     margin: 0;
     padding: 0;
 }
+@media (max-width: 768px) {
+  body {
+    font-size: 0.9rem;
+    padding: 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  body {
+    font-size: 1.1rem;
+    padding: 20px;
+  }
+}
 nav h1 {
     display: inline;
     font-size: 3rem;
